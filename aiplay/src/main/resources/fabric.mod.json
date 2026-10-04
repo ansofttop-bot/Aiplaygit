@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "aiplay",
+  "version": "${version}",
+  "name": "AI Play (DeepSeek Autopilot)",
+  "description": "Client-side AI autopilot controlled via DeepSeek. ClickGUI on RShift, emergency stop on RCTRL.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.aiplay.AIMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
